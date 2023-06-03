@@ -1889,7 +1889,7 @@ int GuiToggle(Rectangle bounds, const char *text, bool *active)
     int result = 0;
     GuiState state = guiState;
 
-    bool temp = false;
+    int temp = false;
     if (active == NULL) active = &temp;
 
     // Update control
